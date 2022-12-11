@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 .float-end{
     width: 100%;
     height: 225px;
 }
+
+.corpo{
+    position: absolute;
+    background-color: #0f4cb1;
+}
 .titulo{
-    color: #435fda;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    color: #000000;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 #blog{
@@ -13,4 +21,21 @@
 
 #cartao{
     background-color: #acb5dd;
+}
+
+.blog{
+    color: #435fda;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#texto{
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#color{
+    color: #ffffff;
 }

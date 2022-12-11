@@ -43,22 +43,14 @@ function noticiageral() {
 function titulo(){
   url = new URL (window.location.href);
   parametro = url.searchParams;
-  i = parametro.get("codigo_conteudo");
+  i = parametro.get("codigo_postagem");
   document.write(y[i].getElementsByTagName("titulo")[0].childNodes[0].nodeValue);
-}
-
-function imagem(){
-  url = new URL(window.location.href);
-  parametro = url.searchParams;
-  i = parametro.get("codigo_conteudo");
-
-  document.write(y[i].getElementsByTagName("imagem")[0].childNodes[0].nodeValue);
 }
 
 function texto(){
   url = new URL(window.location.href);
   parametro = url.searchParams;
-  i = parametro.get("codigo_conteudo");
+  i = parametro.get("codigo_postagem");
 
   document.write(y[i].getElementsByTagName("texto")[0].childNodes[0].nodeValue);
 } 
@@ -66,7 +58,7 @@ function texto(){
 function site(){
   url = new URL(window.location.href);
   parametro = url.searchParams;
-  i = parametro.get("codigo_conteudo");
+  i = parametro.get("codigo_postagem");
 
   document.write(y[i].getElementsByTagName("site")[0].childNodes[0].nodeValue);
 }   
